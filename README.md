@@ -1,6 +1,6 @@
 # Modelo Relacional - Loja de Suplementos
 
-Este projeto apresenta a modelagem e a implementação SQL de um sistema de gerenciamento para uma loja de suplementos alimentares.
+Este projeto apresenta a modelagem e a implementacao SQL de um sistema de gerenciamento para uma loja de suplementos alimentares.
 
 ## Objetivo
 
@@ -23,11 +23,18 @@ Tabelas principais:
 - `Funcionario` 1:N `Vendas`
 - `Vendas` N:N `Produto` (resolvido por `ITENS_VENDA`)
 
+## Arquivos do Projeto
+
+- `loja.sql`: cria o banco e as tabelas.
+- `inserindo.sql`: insere dados de exemplo.
+- `consulta.sql`: executa consultas simples para validacao.
+
 ## Como Executar
 
 1. Abra seu SGBD (ex.: MySQL).
-2. Execute o arquivo `loja.sql`.
-3. O script cria o banco `Loja_suplementos` e as tabelas automaticamente.
+2. Execute `loja.sql`.
+3. Execute `inserindo.sql`.
+4. Execute `consulta.sql`.
 
 ## Autor
 
